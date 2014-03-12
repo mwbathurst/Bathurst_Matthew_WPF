@@ -38,3 +38,18 @@ var groceryAvg = totalGroceryCost / 5;
 
 console.log("You have spent a total of $" + totalGroceryCost + " on groceries over 5 weeks. That is an average of $" + groceryAvg + " per week");
 
+//Problem 5: Discounts
+
+// Givens 
+var item = "Laptop";
+var oringalPrice = 1000;
+var discount = 20;
+var tax = 6.5;
+
+var totalWithoutTax = oringalPrice - (oringalPrice * (discount / 100));
+var	totalWithTax = totalWithoutTax * (1 + tax/100);
+
+console.log("Your " + item + " was originally $" + oringalPrice + " but after a " + discount + "% discount, it is now $" + totalWithoutTax + " without tax, and $" + totalWithTax + " with tax.");
+
+
+
