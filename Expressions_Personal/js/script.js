@@ -13,11 +13,12 @@ var gramsPerScoop = prompt("How many grams per scoop is there in " + protein + "
 var workoutsPerWeek = prompt("How many times do you workout per week on average?");  // Identifies the frequence in which you consume protein
 
 // Constants
-var weight = [1, 1000, .002]; // weight[0] = grams per gram, weight[1] = grams per kilogram, weight[2] = grams per pound
+var weight = [1, 1000]; // weight[0] = grams per gram, weight[1] = grams per kilogram,
 var weeklyTotalScoops = scoopsPerWorkout * workoutsPerWeek //knowing how many workouts per week I know I'll consume how many scoops per week
 var yearTotalScoops = weeklyTotalScoops * 52 // yearly total of grams
-
+var weeklyGramsTotal = [weight[0] * weeklyTotalScoops, weeklyTotalScoops / weight[1] ];
+var yearlyGramsTotal = [weight[0] * yearTotalScoops, yearTotalScoops / weight[1] ];
 
 console.log(weeklyTotalScoops, yearTotalScoops);
-console.log(weight[0], weight[1], weight[2]);
+console.log(gramsTotal[0], gramsTotal[1]);
 
