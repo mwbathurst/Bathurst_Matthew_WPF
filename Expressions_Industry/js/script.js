@@ -34,5 +34,11 @@ var total = Number(fighterPurse) + Number(fighterBonus) + Number(fighterSponsors
 var gymCuts = [fighterPurse * 0.15, fighterBonus * .05,fighterSponsorship * .015]; 
 // Calculates the different cuts the takes from how much the fighter earns based upon the source of the income, 15% out of the purse, 5% if there is a bonus, 15% out of the sponsorship money earned
 
-console.log(total);
-console.log(name + ", congratulations on your fighting. \nYou earned a total of "  )
+var totalGymCut = Number(gymCuts[0]) + Number(gymCuts[1]) + Number(gymCuts[2]);
+// Total what the fighter owes the gym for their participation in helping prep them for the fight. 
+var preTax = total - totalGymCut;
+// Calculates the total income the fighter earned after paying the gym his dues
+
+console.log(" " + name + ", congratulations on your fight. \n You earned a total of $" + total + " before any fees were taken out.\n The Gym took out 15% from your Fighter Purse for a total of $" + gymCuts[0] + "\n The Gym also took out 5% from your Performance Bonus for a total of $" + gymCuts[1] + "\n The Gym took out 1.5% from your Sponsorship Money for a total of $" + gymCuts[2] + "\n That Amounts to a total of $" + totalGymCut + " out of your purse for the fight. \n The Nice thing is you get to keep 100% from your ticket sales. \n So " + name + " after give up your fees to the gym you came away with $" + preTax + ". \n Remember DON'T FORGET TO PAY YOUR TAXES!  Don't want to hear that " + name + ", went broke cause he/she forgot about the taxes.");
+
+// Explanation of all the calculations in an easy to read format for the user to the console
