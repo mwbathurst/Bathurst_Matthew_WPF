@@ -19,12 +19,12 @@ alert("Let's calculate if you deserve to have protein pudding for desert tonight
 
 
 var weight = prompt("How many pounds do you weigh?"); // Defines the 1st input from the user that will be basis for determining calculation for solution 
-var protein = prompt("How many grams of protein have you consumed today"); // Defines the 2nd input from the user that will help determine calculation for solution
-var proteinPerLb = protein / weight; // Main Calculation for Problem 
-var maleProteinPerLb = 1.5; // This is a gender specific comparision calculation for males
-var desert; // Setting up for Ternary statement of Protein/PerLb > 1.5g No Protein Pudding Desert, if Protein < 1.5g then consume protein pudding
 var voidInput = ""; // Setup for Validating inputs from user
+var proteinPerLb = protein / weight; // Main Calculation for Problem 
+var ProteinPerLb = 1.5; // This is a gender specific comparision calculation for males
+var desert; // Setting up for Ternary statement of Protein/PerLb > 1.5g No Protein Pudding Desert, if Protein < 1.5g then consume protein pudding
 
+// Will wait for Wed's Class to ask about validation and how to modify solution for it, will write code without validations first
 
 
 
