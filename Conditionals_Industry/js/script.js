@@ -13,7 +13,7 @@ hydrate on the average day.
 /* Formula in ounce= weight * 2/3 + (12oz * (workout time/60min)) 
 	if output is greater then 200 out, then it's capped at 200
 */
-
+alert("Welcome to your Personal Hydration Monitoring System.");
 var weight = prompt("How much do you weight?");
 //asks users to input first important factor into calculation
 var workout = prompt("How many minutes do you workout per day?");
