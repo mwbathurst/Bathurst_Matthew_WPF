@@ -28,11 +28,24 @@ if(gender !== "M"){
 	var age = prompt("How old are you? In years.");
 	// asks the user to input their age as it's a part of the maniliness equation
 	var men = prompt("How many male partners have you had?");
-	//asks the user for their male experience, as it will be used later in the maniliness equation
+	// asks the user for their male experience, as it will be used later in the maniliness equation
 	var women = prompt("How many female partners have you had?");
 	// asks the user for their female experience, as it will be used later in the maniliness equation
 	var yourConquest = (women - men) / age;
-	console.log(yourConquest);
+	// Defines the base in which we will compare the user number compared to wilts
+
+	if(yourConquest == wiltsConquest){
+		console.log("You are Wilt's Equal.");
+		// the output if you and Wilt are equal in your conquest number
+	}else if(yourConquest > wiltsConquest){
+		console.log("You're the top ALPHA Male of all time!");
+		// the output of if the results of the test comes out that the user is more of a male then Wilt Chamberlain.
+	}else{
+		console.log("Do you want to be like Wilt? Then get out there and assert your Alpha Male status.");
+		//output of those who fail the test against Wilt
+	}
+		// This IF/ELSEIF testest for the solution in which we seak.
+
 }
 /* This if/else statement evaluates the user's input to gender, since working on the assumption that user does not id with the male gender,
 the user can not participate in the test, because they are thus not a man. 
