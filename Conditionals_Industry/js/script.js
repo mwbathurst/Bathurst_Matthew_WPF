@@ -24,3 +24,9 @@ var output = weight * 2/3 + 12 * workout/60;
 if(consumption => output && consumption < 200){
 	console.log("Your Daily goal of " + output + " ounces of water has been meet. \nRemember over-hydration can be just as dangerous as under-hydration, so remember to stay under 200 ounces a day." );
 	// this is the print out if consumption is greater than Output and less than medical max of 200
+}else if (consumption => 200){
+	console.log("You've reached the level of over-hydration for the day, please do not consume any more liquids today.");
+	//defines the variable 
+}else{
+
+}
