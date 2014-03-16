@@ -1,7 +1,7 @@
 /* 
 Matthew Bathurst
 Assignment: Conditional Personal
-Web Fundamentals Online Section 3
+Web Fundamentals Online Section 1
 March 15, 2013
 */
 
