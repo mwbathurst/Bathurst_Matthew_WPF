@@ -17,7 +17,6 @@ alert("Let's calculate if you deserve to have protein pudding for desert tonight
 
 //Variable List
 
-
 var weight = prompt("How many pounds do you weigh?"); // Defines the 1st input from the user that will be basis for determining calculation for solution 
 var protein = prompt("How many grams of protein have you consumed today?"); // Defines the 2nd input from the user that will help determine calculation for solution
 var voidInput = ""; // Setup for Validating inputs from user
