@@ -22,8 +22,6 @@ var desert; // Setting up for Ternary statement of Protein/PerLb > goal No Prote
 desert = (proteinPerLb < goal) ? "You need to eat some protein pudding your Protein consumption hasn't reached its Goal of 1.5g/lb yet!" : "You have reached your Protein consumption GOAL of 1.5g/lb for today, sorry you can't have desert!";
 //This line of code compares the calculation of what you have consumed(protein/weight) vs your goal(1.5g of protein per lb of weight) and it outputs if you can have desert or not
 
-
-
 var weight = prompt("How many pounds do you weigh?"); // Defines the 1st input from the user that will be basis for determining calculation for solution 
 
 if (weight == "") {
@@ -31,12 +29,17 @@ if (weight == "") {
 	var weight = prompt("Please ENTER your weight in pounds, as you left it blank."); //Second and Final prompt for weight
 	var protein = prompt("How many grams of protein have you consumed today?"); // Defines the 2nd input from the user that will help determine calculation for solution
 	if(protein == ""){
-		// if statement for the validation for the protein prompt
 		var protein = prompt("Please Enter how many grams of protein have you consumed today?"); // Defines the 2nd input from the user that will help determine calculation for solution
+		var proteinPerLb = protein / weight; // Main Calculation for Problem //else statement for the validation for the protein
+		desert = (proteinPerLb < goal) ? "You need to eat some protein pudding your Protein consumption hasn't reached its Goal of 1.5g/lb yet!" : "You have reached your Protein consumption GOAL of 1.5g/lb for today, sorry you can't have desert!";
+		//This line of code compares the calculation of what you have consumed(protein/weight) vs your goal(1.5g of protein per lb of weight) and it outputs if you can have desert or not
 		console.log(desert); // The print out of the teneary for the equation
-
+	
 	}else
 		//else statement for the validation for the protein
+		var proteinPerLb = protein / weight; // Main Calculation for Problem //else statement for the validation for the protein
+		desert = (proteinPerLb < goal) ? "You need to eat some protein pudding your Protein consumption hasn't reached its Goal of 1.5g/lb yet!" : "You have reached your Protein consumption GOAL of 1.5g/lb for today, sorry you can't have desert!";
+		//This line of code compares the calculation of what you have consumed(protein/weight) vs your goal(1.5g of protein per lb of weight) and it outputs if you can have desert or not
 		console.log(desert); // The print out of the teneary for the equation
 	}
 else{
@@ -45,9 +48,14 @@ else{
 	if(protein == ""){
 		// if statement for the validation for the protein prompt
 		var protein = prompt("Please Enter how many grams of protein have you consumed today?"); // Defines the 2nd input from the user that will help determine calculation for solution
+		var proteinPerLb = protein / weight; // Main Calculation for Problem //else statement for the validation for the protein
+		desert = (proteinPerLb < goal) ? "You need to eat some protein pudding your Protein consumption hasn't reached its Goal of 1.5g/lb yet!" : "You have reached your Protein consumption GOAL of 1.5g/lb for today, sorry you can't have desert!";
+		//This line of code compares the calculation of what you have consumed(protein/weight) vs your goal(1.5g of protein per lb of weight) and it outputs if you can have desert or not
 		console.log(desert); // The print out of the teneary for the equation
-
 	}else
-		//else statement for the validation for the protein
+		var proteinPerLb = protein / weight; // Main Calculation for Problem //else statement for the validation for the protein
+		desert = (proteinPerLb < goal) ? "You need to eat some protein pudding your Protein consumption hasn't reached its Goal of 1.5g/lb yet!" : "You have reached your Protein consumption GOAL of 1.5g/lb for today, sorry you can't have desert!";
+		//This line of code compares the calculation of what you have consumed(protein/weight) vs your goal(1.5g of protein per lb of weight) and it outputs if you can have desert or not
 		console.log(desert); // The print out of the teneary for the equation
 	}
+
