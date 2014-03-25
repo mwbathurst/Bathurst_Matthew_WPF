@@ -6,7 +6,8 @@ Date: Week 4
 */
 
 
-/* The calculation for my job.  Max Heart calculation
+/* The calculation for my job.  Max Heart calculation for personal training clients
+for max efficent work calculations
 if male: 202 - (.55 x age)
 else female 216 -(1.09 x age)
 
