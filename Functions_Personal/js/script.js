@@ -34,3 +34,5 @@ var dateCalc = function(herRating, yourRating, herAge){
 //anon function for calculation
 
 
+var output = dateCalc(herRating, yourRating, herAge); //invoking the function
+console.log(output); //final output for invoked calculation
