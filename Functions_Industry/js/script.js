@@ -19,15 +19,18 @@ alert("Let's calculate your max heart so you can decide how much effort you want
 
 var gender = "Male";
 var age = 21;
-if (gender == "m" || gender == "male" || gender == "Male") {
-	var maxHeart = 202 - (.55 * age); 
-	console.log(maxHeart);
-}else{
-	var maxHeart = 216 - (1.09 * age);
-	console.log(maxHeart);
+var maxHeart = heartrate(gender, age);
+console.log(maxHeart);
+
+function heartrate(gender, age){
+	if (gender == "m" || gender == "male" || gender == "Male") {
+		var maxHeart = 202 - (.55 * age); 
+		return maxHeart;
+	}else{
+		var maxHeart = 216 - (1.09 * age);
+		return maxHeart;
+	}
 }
 
 
-/* function heartrate(age){
 
-} */
