@@ -13,3 +13,6 @@ else female 216 -(1.09 x age)
 
 inputs = gender & age
 */
+
+alert("Let's calculate your max heart so you can decide how much effort you want to put out for your workout.");
+// Alerts the user on what the software is going to do for the user
