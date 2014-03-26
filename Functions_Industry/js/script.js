@@ -23,7 +23,7 @@ var age = prompt("Please stay your age.");
 // Prompts User Input for calculation, 
 var maxHeart = heartrate(gender, age);
 // variable defined for function heartrate
-console.log("Hello your max heart should be around " + Math.round(maxHeart) + " beats per minute.\nThis number is calculated based on averages, and each person can have a different one based upon your personal genetics.");
+console.log("Hello your max heart should be around " + (maxHeart) + " beats per minute.\nThis number is calculated based on averages, and each person can have a different one based upon your personal genetics.");
 // It's the console output that gives the output of the work from the function
 
 function heartrate(gender, age){
