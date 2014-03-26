@@ -31,7 +31,7 @@ var dateCalc = function(herRating, yourRating, herAge){
 	//tenary based on age for cost of date
 	return cost; // completes the function and keeps it from being just a procedure
 }
-//anon function for calculation
+//anon function for calculation returns value for future calculation if you so desire to expand
 
 
 var output = dateCalc(herRating, yourRating, herAge); //invoking the function
