@@ -34,7 +34,7 @@ if(ring >= 1.5){
 		// output to the console if the else if is true
 	}else{
 		// else section of if statement, that generates the result of everything being false
-		console.log("Sorry you're too broke, don't ask her to marry that special someone unless they are ok with a crackerjack ring.");
+		console.log("Sorry you're too broke, don't ask to marry that special someone unless they are ok with a crackerjack ring.");
 		//output to console if everything is false 
 }
 //the main program that decides if you can buy the ring
