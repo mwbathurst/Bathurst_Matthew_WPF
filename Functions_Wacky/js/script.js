@@ -13,6 +13,14 @@ available funds in bank account
 alert("Is tonight the night to ask that special someone to marry you?");
 //alerts the user to the question at hand
 
+//equation defined bank account / (cost of ring * 2) = the One Ring Factor
+
+var ringCost = 210;
+var bankAccount = 100;
+var theOneRing = bankAccount / ringCost * 2;
+console.log(theOneRing);
+ 
+
 
 
 
